@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Who Am I</title> 
+        <script src="listener.js"></script>
+        <style>
+            .cover {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .box {
+                width: 60px;
+                height: 60px;
+                padding: 20px;
+                margin: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="cover">
+            <div class="box" id="my-ui"></div>
+            <br/>
+            <button onClick="myAction.changeUI()">Change Color</button>
+        </div>
+
+        <script src="logic.js"></script>
+    </body>
+</html>
