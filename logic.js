@@ -1,5 +1,5 @@
 const colors = ["#C6EBC9", "#70AF85", "#F0E2D0", "#AA8976"];
-// my ui;
+// brain;
 const myUI = document.getElementById("my-ui");
 
 // binding state with listener;
